@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.1.13
+ENV VERSION=0.1.14
 
 RUN gem install lazyman --version ${VERSION} --no-format-exec
 
